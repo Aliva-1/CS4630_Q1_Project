@@ -53,7 +53,7 @@ print(f"Preprocessing complete. Training shape: {X_train.shape}")
 
 # Initialize models
 dt = DecisionTreeClassifier(max_depth=10, random_state=42)
-knn = KNeighborsClassifier(n_neighbors=75)
+knn = KNeighborsClassifier(n_neighbors=51)
 lr = LogisticRegression(max_iter=1000)
 
 # Evaluate each
