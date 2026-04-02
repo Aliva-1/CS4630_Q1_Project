@@ -5,3 +5,5 @@ To run the project codes, download the "Adult" dataset from the UCI ML Repositor
 You will also need to have the following libraries installed:
 
 pandas, os, scikit-learn
+
+Output will show accuracy, precision, and recall for each of the 7 ML methods.
